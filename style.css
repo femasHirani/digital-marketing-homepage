@@ -1,0 +1,102 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/* ======= NAVBAR ======== */
+
+
+nav.navbar-container {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+nav.navbar-container div img {
+    width: 120px;
+}
+nav.navbar-container div {
+    float: left;
+}
+nav.navbar-container ul.list {
+    float: left;
+    margin: 10px 0 0 30px;
+}
+nav.navbar-container ul.list li.list-item {
+    margin: 0 30px;
+    list-style: none;
+    transition: 0.3s all ease;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    color: #7c7c7c;
+}
+nav.navbar-container ul.list li.list-item:hover {
+    color: #000;
+}
+.button-group {
+    float: right !important;
+    margin: 7px 0 0 0;
+}
+.search-icon svg {
+    width: 20px;
+}
+button.nav-button {
+    background: #5955b3;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin: -3px 0 0 10px;
+    float: left;
+}
+
+
+/* ==== BANNER ==== */
+section .banner-container{
+    width: 100%;
+    float: left;
+}
+section .banner-container .banner_left {
+    width: 45%;
+    float: left;
+    padding: 70px 0 0 0;
+}
+section .banner-container .banner_right {
+    width: 55%;
+    float: left;
+    position: absolute;
+    right: 0;
+}
+section .banner-container .banner_right img {
+    width: 100%;
+}
+p.description {
+    width: 72%;
+    float: left;
+    margin: 20px 0 60px 0;
+    color: #8c8282;
+}
+
+section .banner-container button.nav-button {
+    padding: 16px 35px;
+    margin: 0;
+}
+h1.heading-text {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #3c2f60;
+}
+h1.heading-text span{
+    color: #5955b3;
+}
